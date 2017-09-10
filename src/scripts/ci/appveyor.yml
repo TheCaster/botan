@@ -72,6 +72,6 @@ branches:
     - release-2
     - clcache
 
+# Despite claim in docs, %HOME% not supported
 cache:
-#  - '%HOME%\clcache'
-  - 'C:\Users\Appveyor\clcache'
+  - C:\Users\Appveyor\clcache -> src\scripts\ci\appveyor.yml
